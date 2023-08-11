@@ -1,0 +1,95 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, nav, section, footer, aside, article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Стили для навигационного меню */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #444;
+}
+
+/* Стили для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили для формы */
+form {
+    max-width: 400px;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для боковой панели */
+aside {
+    background-color: #eee;
+}
+
+/* Стили для подвала */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+}
